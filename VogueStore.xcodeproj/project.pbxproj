@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		3002F9241DB0A69100FF2E53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9231DB0A69100FF2E53 /* AppDelegate.swift */; };
-		3002F9261DB0A69100FF2E53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9251DB0A69100FF2E53 /* ViewController.swift */; };
+		3002F9261DB0A69100FF2E53 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9251DB0A69100FF2E53 /* LoginViewController.swift */; };
 		3002F9291DB0A69100FF2E53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3002F9271DB0A69100FF2E53 /* Main.storyboard */; };
 		3002F92B1DB0A69100FF2E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3002F92A1DB0A69100FF2E53 /* Assets.xcassets */; };
 		3002F92E1DB0A69100FF2E53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3002F92C1DB0A69100FF2E53 /* LaunchScreen.storyboard */; };
+		3002F9401DB1AC3700FF2E53 /* AuthorizationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3002F93F1DB1AC3700FF2E53 /* AuthorizationView.xib */; };
+		3002F9421DB1B1C700FF2E53 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9411DB1B1C700FF2E53 /* AuthorizationView.swift */; };
+		3002F9461DB1C99100FF2E53 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9451DB1C99100FF2E53 /* HomeViewController.swift */; };
+		3002F9481DB1EB1E00FF2E53 /* NavBarCustomizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9471DB1EB1E00FF2E53 /* NavBarCustomizeable.swift */; };
+		3002F94D1DB34F4B00FF2E53 /* ItemPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F94B1DB34F4B00FF2E53 /* ItemPreviewCell.swift */; };
+		3002F94E1DB34F4B00FF2E53 /* ItemPreviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3002F94C1DB34F4B00FF2E53 /* ItemPreviewCell.xib */; };
+		3002F9511DB34FCE00FF2E53 /* AlternatePreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F94F1DB34FCE00FF2E53 /* AlternatePreviewCell.swift */; };
+		3002F9521DB34FCE00FF2E53 /* AlternatePreviewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3002F9501DB34FCE00FF2E53 /* AlternatePreviewCell.xib */; };
+		3002F9541DB409C400FF2E53 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9531DB409C400FF2E53 /* ShopViewController.swift */; };
+		3002F9561DB4519400FF2E53 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9551DB4519400FF2E53 /* ItemView.swift */; };
+		3002F9581DB451A000FF2E53 /* ItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3002F9571DB451A000FF2E53 /* ItemView.xib */; };
+		3002F95A1DB4BD6800FF2E53 /* Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F9591DB4BD6800FF2E53 /* Animate.swift */; };
+		3002F95C1DB4BF7200FF2E53 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002F95B1DB4BF7200FF2E53 /* DataStructures.swift */; };
+		B9962167FC5400D9C3B9E4D2 /* Pods_VogueStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C0EF2C9ECC6B5F2B3A1594 /* Pods_VogueStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3002F9201DB0A69100FF2E53 /* VogueStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VogueStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3002F9231DB0A69100FF2E53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3002F9251DB0A69100FF2E53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3002F9251DB0A69100FF2E53 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3002F9281DB0A69100FF2E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3002F92A1DB0A69100FF2E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3002F92D1DB0A69100FF2E53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3002F92F1DB0A69100FF2E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3002F93F1DB1AC3700FF2E53 /* AuthorizationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorizationView.xib; sourceTree = "<group>"; };
+		3002F9411DB1B1C700FF2E53 /* AuthorizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		3002F9451DB1C99100FF2E53 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3002F9471DB1EB1E00FF2E53 /* NavBarCustomizeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBarCustomizeable.swift; sourceTree = "<group>"; };
+		3002F94B1DB34F4B00FF2E53 /* ItemPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemPreviewCell.swift; sourceTree = "<group>"; };
+		3002F94C1DB34F4B00FF2E53 /* ItemPreviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemPreviewCell.xib; sourceTree = "<group>"; };
+		3002F94F1DB34FCE00FF2E53 /* AlternatePreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternatePreviewCell.swift; sourceTree = "<group>"; };
+		3002F9501DB34FCE00FF2E53 /* AlternatePreviewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlternatePreviewCell.xib; sourceTree = "<group>"; };
+		3002F9531DB409C400FF2E53 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		3002F9551DB4519400FF2E53 /* ItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		3002F9571DB451A000FF2E53 /* ItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemView.xib; sourceTree = "<group>"; };
+		3002F9591DB4BD6800FF2E53 /* Animate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animate.swift; sourceTree = "<group>"; };
+		3002F95B1DB4BF7200FF2E53 /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		4035F377BD77D44B14510E02 /* Pods-VogueStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogueStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore.release.xcconfig"; sourceTree = "<group>"; };
+		52C0EF2C9ECC6B5F2B3A1594 /* Pods_VogueStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VogueStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72D905230B687C5684A3AD6 /* Pods-VogueStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VogueStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9962167FC5400D9C3B9E4D2 /* Pods_VogueStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				3002F9221DB0A69100FF2E53 /* VogueStore */,
 				3002F9211DB0A69100FF2E53 /* Products */,
+				89BC5345D03E70CB4472CB52 /* Pods */,
+				344C62C12D83CB27F83A74AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,68 @@
 		3002F9221DB0A69100FF2E53 /* VogueStore */ = {
 			isa = PBXGroup;
 			children = (
-				3002F9231DB0A69100FF2E53 /* AppDelegate.swift */,
-				3002F9251DB0A69100FF2E53 /* ViewController.swift */,
 				3002F9271DB0A69100FF2E53 /* Main.storyboard */,
+				3002F9231DB0A69100FF2E53 /* AppDelegate.swift */,
+				3002F9441DB1C67E00FF2E53 /* ViewControllers */,
+				3002F9431DB1C66800FF2E53 /* Views */,
+				3002F95D1DB4D7A700FF2E53 /* Utilities */,
 				3002F92A1DB0A69100FF2E53 /* Assets.xcassets */,
 				3002F92C1DB0A69100FF2E53 /* LaunchScreen.storyboard */,
 				3002F92F1DB0A69100FF2E53 /* Info.plist */,
 			);
 			path = VogueStore;
+			sourceTree = "<group>";
+		};
+		3002F9431DB1C66800FF2E53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3002F9411DB1B1C700FF2E53 /* AuthorizationView.swift */,
+				3002F93F1DB1AC3700FF2E53 /* AuthorizationView.xib */,
+				3002F94B1DB34F4B00FF2E53 /* ItemPreviewCell.swift */,
+				3002F94C1DB34F4B00FF2E53 /* ItemPreviewCell.xib */,
+				3002F94F1DB34FCE00FF2E53 /* AlternatePreviewCell.swift */,
+				3002F9501DB34FCE00FF2E53 /* AlternatePreviewCell.xib */,
+				3002F9551DB4519400FF2E53 /* ItemView.swift */,
+				3002F9571DB451A000FF2E53 /* ItemView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3002F9441DB1C67E00FF2E53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3002F9251DB0A69100FF2E53 /* LoginViewController.swift */,
+				3002F9451DB1C99100FF2E53 /* HomeViewController.swift */,
+				3002F9531DB409C400FF2E53 /* ShopViewController.swift */,
+				3002F9471DB1EB1E00FF2E53 /* NavBarCustomizeable.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3002F95D1DB4D7A700FF2E53 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3002F9591DB4BD6800FF2E53 /* Animate.swift */,
+				3002F95B1DB4BF7200FF2E53 /* DataStructures.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		344C62C12D83CB27F83A74AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C0EF2C9ECC6B5F2B3A1594 /* Pods_VogueStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89BC5345D03E70CB4472CB52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A72D905230B687C5684A3AD6 /* Pods-VogueStore.debug.xcconfig */,
+				4035F377BD77D44B14510E02 /* Pods-VogueStore.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3002F9321DB0A69100FF2E53 /* Build configuration list for PBXNativeTarget "VogueStore" */;
 			buildPhases = (
+				18AC27474886002BF68612A5 /* [CP] Check Pods Manifest.lock */,
 				3002F91C1DB0A69100FF2E53 /* Sources */,
 				3002F91D1DB0A69100FF2E53 /* Frameworks */,
 				3002F91E1DB0A69100FF2E53 /* Resources */,
+				511C7497B6E18641B93F13C1 /* [CP] Embed Pods Frameworks */,
+				CF2E96404736499E8923333D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +186,7 @@
 				TargetAttributes = {
 					3002F91F1DB0A69100FF2E53 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NT7FFBVKUP;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,21 +214,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3002F94E1DB34F4B00FF2E53 /* ItemPreviewCell.xib in Resources */,
 				3002F92E1DB0A69100FF2E53 /* LaunchScreen.storyboard in Resources */,
 				3002F92B1DB0A69100FF2E53 /* Assets.xcassets in Resources */,
+				3002F9521DB34FCE00FF2E53 /* AlternatePreviewCell.xib in Resources */,
+				3002F9581DB451A000FF2E53 /* ItemView.xib in Resources */,
+				3002F9401DB1AC3700FF2E53 /* AuthorizationView.xib in Resources */,
 				3002F9291DB0A69100FF2E53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18AC27474886002BF68612A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		511C7497B6E18641B93F13C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF2E96404736499E8923333D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VogueStore/Pods-VogueStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3002F91C1DB0A69100FF2E53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3002F9261DB0A69100FF2E53 /* ViewController.swift in Sources */,
+				3002F9511DB34FCE00FF2E53 /* AlternatePreviewCell.swift in Sources */,
+				3002F9261DB0A69100FF2E53 /* LoginViewController.swift in Sources */,
+				3002F94D1DB34F4B00FF2E53 /* ItemPreviewCell.swift in Sources */,
 				3002F9241DB0A69100FF2E53 /* AppDelegate.swift in Sources */,
+				3002F9561DB4519400FF2E53 /* ItemView.swift in Sources */,
+				3002F95C1DB4BF7200FF2E53 /* DataStructures.swift in Sources */,
+				3002F95A1DB4BD6800FF2E53 /* Animate.swift in Sources */,
+				3002F9541DB409C400FF2E53 /* ShopViewController.swift in Sources */,
+				3002F9421DB1B1C700FF2E53 /* AuthorizationView.swift in Sources */,
+				3002F9461DB1C99100FF2E53 /* HomeViewController.swift in Sources */,
+				3002F9481DB1EB1E00FF2E53 /* NavBarCustomizeable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +410,12 @@
 		};
 		3002F9331DB0A69100FF2E53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72D905230B687C5684A3AD6 /* Pods-VogueStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NT7FFBVKUP;
 				INFOPLIST_FILE = VogueStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rchatham.VogueStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +425,12 @@
 		};
 		3002F9341DB0A69100FF2E53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4035F377BD77D44B14510E02 /* Pods-VogueStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NT7FFBVKUP;
 				INFOPLIST_FILE = VogueStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rchatham.VogueStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +457,7 @@
 				3002F9341DB0A69100FF2E53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

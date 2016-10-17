@@ -1,0 +1,12 @@
+PODS:
+  - ionicons (2.0.3)
+
+DEPENDENCIES:
+  - ionicons
+
+SPEC CHECKSUMS:
+  ionicons: ec1e86e6c3316bd9942a7f024080dd75c70dd6a5
+
+PODFILE CHECKSUM: e57733d41020b16a37ff60c49c4dbd6b798a83d9
+
+COCOAPODS: 1.1.0.rc.2
